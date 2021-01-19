@@ -25,7 +25,7 @@ function getLicence(license) {
 
 const getTemplate = ({title, description, installation, usage, license, contributing, tests, github, email })=> {
 const licenseURL = getLicence(license);
-return `#${title}
+return `# ${title}
 ${licenseURL}
 
 
