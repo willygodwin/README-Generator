@@ -28,47 +28,48 @@ const licenseURL = getLicence(license);
 return `#${title}
 ${licenseURL}
 
- <a name="desc"/>
- ##Description
- ${description}
 
- ##Table of Contents
- [Description](#desc) 
- [Installation Instructions](#install)  
- [Usage Information](#usage)  
- [License](#license)  
- [Contribution Guidelines](#contributing)  
- [Test Instrucions](#tests)  
- [Questions](#questions)  
+# Table of Contents
+1. [Description](#description) 
+2. [Installation Instructions](#installation-instructions)  
+3. [Usage Information](#usage-information)  
+4. [License](#license)  
+5. [Contribution Guidelines](#contribution-guidelines)  
+6. [Test Instrucions](#test-instructions)  
+7. [Questions](#questions) 
 
- <a name="install"/>
- ##Installation Instructions
- ${installation}
 
- <a name="usage"/>
- ##Usage Information 
- ${usage}
+## Description
+${description}
 
- <a name="license"/>
- ##License
- This project is licensed under the ${license} license.
 
- <a name="contributing"/>
- ##Contribution Guidelines
- ${contributing}
+## Installation Instructions
+${installation}
 
- <a name="tests"/>
- ##Test Instructions
- ${tests}
 
- <a name="questions"/>
- ##Questions 
- Github:
- https://github.com/${github}
- Email:
- ${email}
+## Usage Information 
+${usage}
 
- `;
+
+## License
+This project is licensed under the ${license} license.
+
+
+## Contribution Guidelines
+${contributing}
+
+
+## Test Instructions
+${tests}
+
+
+## Questions 
+Github:
+https://github.com/${github}
+Email:
+${email}
+
+`;
 }
 
 
