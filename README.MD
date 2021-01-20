@@ -1,5 +1,5 @@
-# Reci-Bits
-[![License](https://img.shields.io/badge/License-BSD%203--Clause-blue.svg)](https://opensource.org/licenses/BSD-3-Clause)
+# README Generator
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
 
 # Table of Contents
@@ -13,36 +13,42 @@
 
 
 ## Description
-"Reci-Bits is a website where you can use a list of raw ingredients to search for a food recipes" 
+README Generator uses the readme template and inquirer to create a README for your project. 
 
 
 ## Installation Instructions
-1. Enter an ingredient into the search bar 
-2. Add the ingredient 
-3. Enter another ingredient repeating 1 & 2 
-4. Once complete click Get Recipes button. 
-5. Browse the Recipes. 
+To install ensure that in the integrated terminal you have run 'npm init -y' to initialise the JSON package, then run 'npm install inquirer'. If you have previously run the above commands, run 'npm install' install to ensure the dependencies are up to date. 
+![Alt text](/screenshots/init.JPG?raw=true "init") 
+![Alt text](/screenshots/install.JPG?raw=true "install")
 
 
 ## Usage Information 
-Yes
+To use the application in the integrated terminal run 'node .\index.js' and follow the command prompts. 
+![Alt text](/screenshots/run.JPG?raw=true "run")
 
 
 ## License
-This project is licensed under the BSD license.
+This project is licensed under the MIT license.
 
 
 ## Contribution Guidelines
-Will Godwin Vince Sumargo
+Please refer to each project's style and contribution guidelines for submitting patches and additions. In general, we follow the "fork-and-pull" Git workflow.
+Fork the repo on GitHub. 
+Clone the project to your own machine. 
+Commit changes to your own branch. 
+Push your work back up to your fork. Submit a Pull request so that we can review your changes. 
+NOTE: Be sure to merge the latest from "upstream" before making a pull request!
 
 
 ## Test Instructions
-test
+Test the project at your own will, please be aware that the project provides a template README for further formatting and use of screenshots please add manually. 
 
 
 ## Questions 
 Github:
 https://github.com/willygodwin
 Email:
-email
+willygodwin47@gmail.com
 
+## Link to Video
+https://drive.google.com/file/d/1v-1pc8Jcq4e0fNXzL4tihdCaT57YYZ6p/view 
